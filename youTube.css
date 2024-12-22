@@ -1,0 +1,170 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 30px;
+    background-color: bisque;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 96%;
+    z-index: 1000;
+}
+
+.guide-logo
+{
+    padding-right: 20px;
+}
+
+.icon
+{
+    font-size: 40px; /* Adjust icon size */
+    color: #FF0000; /* Adjust icon color */
+    padding-right: 5px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+header input[type="text"] 
+{
+    flex: 1;
+    margin: 0 200px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    font-size: large;
+}
+
+header button {
+    background-color: #fff;
+    color: black;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-1
+{
+    padding-right: 10px;
+}
+
+.button-2
+{
+    padding-right: 10px;
+}
+
+main
+{
+    padding: 20px;
+
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.video-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.video
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    margin: 20px;
+    margin-bottom: 0;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.video-details
+{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.channel-logo
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 2px 10px;
+}
+
+.views
+{
+    display: flex;
+}
+
+.time
+{
+    padding-left: 10px;
+}
+
+.ellipsis
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: bisque;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+button:hover
+{
+    border: 1px solid black;
+}
+
+.guide-logo:hover
+{
+    cursor: pointer;
+}
+
+.logo:hover
+{
+    cursor: pointer;
+}
+
+.video:hover
+{
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.video-details:hover
+{
+    cursor: pointer;
+}
